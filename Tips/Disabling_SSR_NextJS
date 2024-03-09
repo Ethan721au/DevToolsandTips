@@ -11,3 +11,8 @@ export default function Page() {
     </div>
   )
 }
+
+
+//Sometimes content will inevitably differ between the server and client, such as a timestamp. You can silence the hydration mismatch warning by adding suppressHydrationWarning={true} to the element. For example:
+
+<time datetime="2016-10-25" suppressHydrationWarning />
