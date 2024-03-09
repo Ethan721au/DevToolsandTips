@@ -1,0 +1,13 @@
+import dynamic from 'next/dynamic'
+ 
+const ComponentNameNoSSR = dynamic(() => import('../components/ComponentName'), { ssr: false })
+
+//add "NoSSR" at the end of the component name and import the component using the import() methode and setting SSR to "false". Then, return the component with "NoSSR".
+ 
+export default function Page() {
+  return (
+    <div>
+      <ComponentNameNoSSR />
+    </div>
+  )
+}
