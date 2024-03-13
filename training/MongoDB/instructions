@@ -1,7 +1,7 @@
 /*
 
 Step 1: install mongoose -> npm install mongoose --save
-Step 2: Create model (models folder to be created in src folder). e.g. UserModel, FoodModel. Example:
+Step 2: Create model (models folder to be created in src folder). e.g. user.model.js Example:
 
 import { model, Schema } from "mongoose";
 
@@ -37,6 +37,8 @@ export const usersSeed = [
   },
 ];
 
+
+Step 4: configure db (create a config folder under src and create database.config.js)
 
 
 
