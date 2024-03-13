@@ -38,7 +38,11 @@ export const usersSeed = [
 ];
 
 
-Step 4: configure db (create a config folder under src and create database.config.js)
+Step 4: in .env, create mongoDB URI (replace <username> and <password> with DB user username and PW )
+
+MONGO_URI = mongodb+srv://<username>:<password>@cluster0.oabhtut.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+Step 5: configure db (create a config folder under src and create database.config.js)
 
 
 
