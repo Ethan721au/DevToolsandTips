@@ -10,3 +10,7 @@ npm install react-hook-form
 ZOD:
 npm install zod
 npm install @hookform/resolvers
+
+Mongoose:
+https://mongoosejs.com/docs/index.html
+npm install mongoose --save
