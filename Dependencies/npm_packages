@@ -5,3 +5,8 @@ npm install react-icons --save
 React Hook Form:
 https://react-hook-form.com/get-started
 npm install react-hook-form
+
+
+ZOD:
+npm install zod
+npm install @hookform/resolvers
