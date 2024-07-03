@@ -1,3 +1,7 @@
+import { Builder, withChildren } from "@builder.io/react";
+
+
+
 Builder.registerComponent(withChildren(InfiniteScroll), {
 	name: "InfiniteScroll",
 	inputs: [
